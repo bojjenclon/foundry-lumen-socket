@@ -20,6 +20,7 @@
     "systems": [],
     "requires": [
       {
+        "id": "socketlib",
         "name": "socketlib",
         "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-socketlib/master/module.json"
       }
