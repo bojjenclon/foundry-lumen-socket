@@ -1,6 +1,6 @@
 {
-  "id": "module",
-  "title": "New Module",
+  "id": "foundry-lumen-socket",
+  "title": "LUMEN socket",
   "description": "",
   "version": "#{VERSION}#",
   "library": "false",
@@ -12,14 +12,15 @@
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "bojjenclon",
+      "url": "https://github.com/foundry-lumen-socket"
     }
   ],
   "relationships": {
     "systems": [],
-    "requires": []
+    "requires": [
+      "socketlib"
+    ]
   },
   "esmodules": [
     "scripts/module.js"
