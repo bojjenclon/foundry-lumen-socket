@@ -1,5 +1,5 @@
 {
-  "id": "foundry-lumen-socket",
+  "id": "lumen-socket",
   "title": "LUMEN socket",
   "description": "",
   "version": "#{VERSION}#",
@@ -13,7 +13,7 @@
   "authors": [
     {
       "name": "bojjenclon",
-      "url": "https://github.com/foundry-lumen-socket"
+      "url": "https://github.com/bojjenclon"
     }
   ],
   "relationships": {
