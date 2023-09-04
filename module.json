@@ -21,8 +21,11 @@
     "requires": [
       {
         "id": "socketlib",
-        "name": "socketlib",
-        "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-socketlib/master/module.json"
+        "type": "module"
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module"
       }
     ]
   },
@@ -42,6 +45,7 @@
       "path": "languages/en.json"
     }
   ],
+  "socket": true,
   "url": "#{URL}#",
   "manifest": "#{MANIFEST}#",
   "download": "#{DOWNLOAD}#",
