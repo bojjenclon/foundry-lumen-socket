@@ -1,8 +1,9 @@
-let socket
-
 Hooks.once('socketlib.ready', () => {
-  socket = socketlib.registerModule('lumen-socket')
+  const socket = socketlib.registerModule('lumen-socket')
   socket.register('essence_used', essence_used)
+  
+  window.lumen = window.lumen || {}
+  window.lumen.socket = socket
 })
 
 function essence_used(id) {
